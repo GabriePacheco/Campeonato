@@ -1,0 +1,684 @@
+  /* CSS Document */
+body{
+  padding: 0;
+  margin: auto;
+  font-family: "Tahoma", "Geneva", sans-serif;
+  min-width: 500px;
+  background:  #E4E4E4;
+
+}
+.contenedor{
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  min-width: 100%;
+  height:100%;
+  min-height: 99%;
+  color: #9F9C9F;
+}
+.i_titulo{
+  margin-top: 6%;
+  margin-left: 33%;
+  font-size: 1.6em;
+  width: 25%;
+  text-align:center;
+}
+#f_ingreso{
+padding: 1.6em;
+margin-top: 1%;
+margin-left: 33%;
+text-align: auto;
+width: 25%;
+border: solid 0.09em #C3C3C3;
+background: #E4E4E4;
+/*color:#999;*/
+
+}
+#f_ingreso label{
+position: relative;
+margin-top: -60px;
+z-index: 2;
+}
+
+#f_ingreso .caja{
+  position:relative ;
+  width: 100%;
+  display:block;
+  font-size: 1.1em; 
+  margin: auto;
+  padding:0.6em;
+  border: solid: 0.2em;
+  z-index: 1;
+   
+}
+
+#f_ingreso .boton_i{
+ border:0;
+ margin-top: 0.5em;
+ width: 100%;
+ background:#3b5998;
+ color:#FFF; 
+ padding: 1.2em;
+ 
+}
+#f_ingreso .vinculo{
+    color:#4581FF;
+    text-decoration: none;
+    text-align: right;
+}
+#f_ingreso .avatar{
+  margin: auto;
+  width: 49%;
+  height: 10em;
+  line-height: 10em;
+  min-height: 10em;
+   background-image: url("avatar_2x.png");
+  background-repeat: no-repeat;
+  -webkit-border-radius: 15em 15em 15em 15em;
+  background-position: center;
+
+}
+.m_error{
+  color: red;
+}
+#contenedor{
+padding: 0;
+margin: auto;
+width: 100%;
+min-width: 100%;
+height:100%;
+min-height: 99%;
+/*color: #B9B9B9;*/
+
+
+}
+
+#barra{
+  display: table-block;
+  padding:0;
+  
+  margin:0 auto;
+  background: #3b5998;
+  width: 100%;
+  height: 5%;
+  max-height:5%;
+  min-height: 35px ;   
+  vertical-align: middle;
+  text-align: center;
+ color: #FFFFFF; 
+  vertical-align:middle;
+  /*border-bottom: solid 0.08em #C4C4C4;*/
+  /*box-shadow: 0 0.1em 0.5em #aaa;*/  
+}
+#titulo{
+  font-size: 1.0em;
+  padding-top: 0.1em; 
+  display: inline-table;
+  width: 40%;
+  text-align: left;
+  vertical-align:middle;
+
+  
+}
+#cesion{
+  padding-top: 0.1em;
+  display: inline-table;
+  width: 40%;
+  text-align: right;
+  vertical-align:middle;
+}
+#barra h2 {
+ padding: 0;
+ vertical-align:middle; 
+ font-size: 1.5em;
+}
+#barra a {
+ padding: 0;
+ vertical-align:middle; 
+ font-size: 0.8em;
+ color:#fff;
+ text-decoration: none;
+ 
+}
+#sub1{
+  position: absolute;
+  top: 6%;
+  left: 80%;
+  background: #FFF;
+  width:  10%;
+  border: solid 0.09em #C3C3C3;
+  padding: 0.3em;
+  font-size: 0.99em;
+  box-shadow: 0 0.1em 0.5em #aaa;
+}
+
+#sub1 ul{
+  padding: 0;
+  margin: 0;
+  list-style:none; 
+  border-bottom: solid 0.1em  #C3C3C3;
+  
+}
+#sub1 li{
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  vertical-align: middel;    
+}
+
+#sub1 a{
+  display:block;
+  text-decoration: none;
+  color: #9F9C9F;
+  width:100%;
+  vertical-align: middel;
+  height: 1em;
+  padding: 0.2em;
+ 
+}
+#sub1 li:hover{
+  background: #3b5998; 
+  
+}
+.visible{
+  visibility: visible;
+  
+}
+.no-visible{
+  visibility: hidden;
+  
+}
+#menu{
+ display: table-cell;
+ width: 20%;
+ font-size:0.96em;
+ height: 100%;
+ 
+ 
+}
+#menu ul{
+  
+    list-style:none;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+#menu li{
+  display: block;
+  padding:0;
+  margin:0;
+  width: 100%;
+  font-weight: normal;
+  
+}
+#menu  a:hover,li:hover{
+  background:#C3C3C3;
+  color: #fff;
+}
+#menu a{
+  text-decoration:none;
+  display: block;
+  color:#9F9C9F; 
+  width:100%;  
+}
+#contenidos{
+  display:table-cell; 
+  width:80%;
+  
+
+}
+.ventana{
+  display:block;
+  width: 100%;
+  background: #FFF;
+  margin: 1em;
+  border: solid 0.1em  #C3C3C3;
+  
+ 
+}
+.titulos{
+  margin: 1em;
+  margin-bottom: 0;
+  color:#3b5998;
+  font-weight: bold;
+  width:100%;
+} 
+.subtitulos{
+  margin-left: 1em;
+  padding: 0; 
+  font-size: 0.90em;
+  width:100%;
+}
+.conten{
+  margin: 1em;
+  font-size: 0.95em;
+  width:100%;
+
+}
+.v_pie{
+  background: #F5F5F5;
+  width: 100%;
+  text-align: right;
+  margin :0;
+  height: 3em;
+  vertical-align:middle;
+ 
+  
+}
+
+.conten label,imput{
+  display: block;
+ 
+}
+.conten .caja{
+ width:95%;
+ border: solid 0.1em  #C3C3C3;
+ height: 2.5em;
+ 
+}
+.caja{
+ width:100%;
+ border: solid 0.1em  #C3C3C3;
+ height: 2.5em;
+ 
+}
+.ventana form {
+margin:0;
+padding:0;
+}
+.ventana .boton {
+margin:1em;
+padding:0.2em;
+border:solid ;   
+background:#3b5998;
+ color:#FFF;
+ width:20%;
+ font-weight: blod;  
+}
+
+.boton {
+ margin-right:1em;
+ padding:0.2em;
+ border:solid ;   
+ background:#3b5998;
+ color:#FFF;
+ width:20%;
+ font-weight: blod; 
+ float: right; 
+}
+#msm{
+  position:fixed;
+  top: 12%;
+  left: 75%;
+  width:23%;
+  background: #999;
+  border: solid 0.09em #C3C3C3;
+  padding: 0.3em;
+  font-size: 0.99em;
+  box-shadow: 0 0.1em 0.5em #aaa;
+}
+
+.mostrar{
+  display: block;
+  width: 95%;
+  border: solid 0.09em #C3C3C3; 
+  color: #789;
+  border-spacing: inherit;
+  font-size: 0.9em;
+}
+.mostrar th{
+  border: solid 0.09em #C3C3C3; 
+  background:  #C3C3C3;
+}
+.mostrar td{
+  border: solid 0.09em #C3C3C3; 
+}
+.mostrar tr:hover{
+  background: #F5F5F5 ;  
+}
+
+
+.mostrar2{
+  display: block;
+  width: 100%;
+  border: solid 0.09em #C3C3C3; 
+  color: #789;
+  border-spacing: inherit;
+  font-size: 0.9em;
+}
+.mostrar2 th{
+  border: solid 0.00em #C3C3C3; 
+  background:  #C3C3C3;
+}
+.mostrar2 td{
+  border: solid 0.0em #C3C3C3; 
+}
+.mostrar2 tr:hover{
+  background: #F5F5F5 ;  
+}
+
+
+#botones_t{
+    width: 100%;
+    height: 100%;
+    min-height:100%; 
+    vertical-align:middle;
+    padding-top: 0.5em;
+    
+}
+#botones_t a{
+    vertical-align:middle;
+    padding-top: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color:    #C3C3C3;
+    padding: 1.1em;
+    font-size: 0.9em;
+    
+    
+    
+}
+
+.form-imagen{
+  width: 90%;
+  display:table-block;
+  
+}
+.form-imagen-celda{
+  display:table-cell;
+  width: 45%;
+    
+}
+#lista{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    
+}
+#partidos{
+  width: 100%;
+  height: 10%;
+  min-height: 10%;  
+  
+}
+
+.inac{
+
+    pointer-events: none;
+   cursor: default;
+   color:#fff;
+}
+#bts{
+  display: inline;
+}
+.box{
+ display: inline-table;
+ width: 40%;
+ background: #e4e4e4;
+ padding: 0.5em;  
+ margin: 1.1em;
+ font-size: 0.8em;
+
+}
+.box a{
+ text-decoration: none;
+ color: #9F9C9F;
+ font-weight:bold;
+
+}
+.lis{
+ margin-top: 1.15em;
+
+}
+#emergente{
+  position:absolute;
+  top:20%;
+  left:20%;
+  width: 50%;
+  background: #FFF;
+  margin: 1em;
+  border: solid 0.1em  #C3C3C3;
+  padding: 0.5em;
+  padding-right: 2em;
+   /*position:fixed;*/
+  white-space:nowrap;
+}
+.marcador{
+  width: 100%;
+  font-size: 0.9em;
+}
+/******************************program*************/
+.suspendido{
+    border: solid 0.8em #fff; 
+    color:#DBBCFF  ;
+    background: #FFFFCC;
+    pointer-events: none;
+    cursor: default;
+    padding: 1em;
+}
+.fianlizado{
+      pointer-events: none;
+      cursor: default;
+      color: #979797;
+      padding: 1em;
+}
+.postergado{  
+      pointer-events: none;
+      cursor: default;
+      background: #C3A7C3  ;
+      padding: 1em;
+      color: #513551     ;
+}
+
+/************/
+.cerrar{
+ 
+ text-align: right; 
+}
+
+.cerrar a{
+ font-size: 0.7em;
+ text-align: right;
+  
+}
+.busqueda{
+  width: 90%;
+  
+}
+.busqueda #buscar{
+      width: 70%;
+      border: solid 0.09em #C3C3C3;
+       
+}
+.pag{
+   margin-top: 0.8em;
+   display:inline-table;
+   margin-left: 1.3em;  
+   font-size: 0.8em;
+   text-align: center;
+   
+}
+.pag a{
+ display: block;
+ border: solid 0.09em #999;
+ text-decoration: none;
+ padding: 0.20em; 
+ width:100%;
+ color: #999;
+
+}
+.pag a:hover{
+  background: #999;
+  color: #BABABA;
+}
+.pagas{
+   margin-top: 0.8em;
+   display:inline-table;
+   margin-left: 1.3em;  
+   font-size: 0.8em;
+   text-align: center;
+   text-decoration: none; 
+   border: solid 0.09em #999;
+   padding: 0.20em; 
+   color: #BABABA;
+  background: #999;
+}
+.barra_pag{
+ width:100%;  
+ text-align: left;
+/* background:#000;*/
+}
+.dinamico{
+  padding-bottom: 0.15em;
+ /* border-bottom: solid 0.09em #c3c3c3;*/
+}
+.vent{
+  margin: 1em;
+  font-size: 1em;
+
+}
+.vent table {
+  width: 100%;  
+}
+.vent td {
+  width: 48%;  
+}
+.vent input{
+  border: solid 0;
+  width: 100%;
+  font-size: 1em;
+  
+  
+}
+.vent .bt_save{
+  display: block;
+  width: 100%;
+  text-align: right;
+  
+}
+.vent tr:hover {
+background: #f5f5f5;
+    
+}
+
+
+        /*****Caja de swich******/
+
+
+
+
+input.switch:empty
+{
+	margin-left: -150%;
+}
+
+input.switch:empty ~ label
+{
+	position: relative;
+	float: left;
+	line-height: 1.6em;
+	text-indent: 4em;
+	margin: 0.2em 0;
+	cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.switch:empty ~ label:before, 
+input.switch:empty ~ label:after
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	width: 3.6em;
+	background-color: #c33;
+	border-radius: 0.3em;
+	box-shadow: inset 0 0.2em 0 rgba(0,0,0,0.3);
+	-webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+input.switch:empty ~ label:after
+{
+	width: 1.4em;
+	top: 0.1em;
+	bottom: 0.1em;
+	margin-left: 0.1em;
+	background-color: #fff;
+	border-radius: 0.15em;
+	box-shadow: inset 0 -0.2em 0 rgba(0,0,0,0.2);
+}
+
+input.switch:checked ~ label:before
+{
+	background-color: #393;
+}
+
+input.switch:checked ~ label:after
+{
+	margin-left: 2.1em;
+}
+                 
+          /******/
+
+.conten2 div{
+
+    clear: both;
+    
+     margin: 1em;
+     font-size: 0.95em;
+     width:100%;
+     display: block;     
+   	margin-left: 2.1em;
+    
+
+}   
+.conten2 .caja{
+         width:90%;
+} 
+.conten2 .numero{
+        border: solid 0.09em #999;
+        vertical-align: middle;
+        width: 30%;
+        height: 2.5em; 
+         
+}   
+/*****Marador ******/
+.goles{
+       text-align: center;
+
+} 
+.pie_marcador{
+     display: table-block;
+     font-size: 0.9em;  
+     text-align: center;
+     vertical-align: middle;
+     width: 100%;
+     padding: 1em;
+             
+}   
+.pie_marcador ul{
+      display: table-row;
+      width: 100%
+              
+              
+}
+.pie_marcador li{
+      display: table-cell;
+      width: 10%;              
+}
+.pie_marcador a{
+      color: #666;
+      text-decoration: none;
+             
+}
+       
+          
+          

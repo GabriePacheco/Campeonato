@@ -1,0 +1,111 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #036;
+	background-image: url(fondo.jpg);
+	background-position: center center;
+}
+#loginer,#redes{
+	text-align: right;	
+}
+
+#loginer nav a{
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	display:block;	       
+	
+	
+}
+#loginer ul {
+	display: block;  	
+}
+
+
+#loginer li {
+	text-align: right;
+	display: inline-table;
+	list-style-type: none;
+	margin-left:1em;
+	
+}
+
+section {
+	display: block;
+}
+aside {
+	display: inline-table;
+	width: 49%;
+}
+
+
+header {
+	color: #FFF;
+	vertical-align: middle;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+header  a{
+	color: #FFF;
+}
+#pagina {
+	vertical-align: middle;
+	width: 80%;
+	margin:auto;
+}
+
+#menu{
+	/*opacity: .50;
+	-moz-opacity: .50;
+	filter: alpha(opacity=50),;*/
+	margin-bottom: 0.7em;
+
+	color: #FFF;
+	background-color: rgba(255,255,255,0.2);
+}
+
+#menu nav a{
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	text-transform: none;
+	  
+}
+#menu ul {
+	display: block;	
+}
+
+
+#menu li {
+	text-align: right;
+	display: inline-table;
+	list-style-type: none;
+	margin-left:0.5em;
+	padding: 0.5em;
+}
+
+#menu nav li:hover{
+	background-color: rgba(0,55,138,0.5);
+}
+#contenido{
+	background-color: #FFF;
+	padding: 1em;
+	padding-right:1em;
+	overflow:hidden;	
+}
+#partidos{
+	font-size: 0.8em;
+	display: table;
+	width: 100%;
+			
+}
+
+.no-visible{
+  display: none;
+}

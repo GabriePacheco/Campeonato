@@ -1,0 +1,438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "editar.php",
+			"settings":
+			{
+				"buffer_size": 1801,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 0 files for \"tr\"\n\n0 matches across 0 files\n\n\nSearching 0 files for \"ventana\"\n\n0 matches across 0 files\n\n\nSearching 119 files for \"ventanas\"\n\n0 matches across 0 files\n\n\nSearching 119 files for \"ventana\"\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\administradores.php:\n    1  \n    2:       <div class=\"ventana\">                        \n    3        <div class=\"titulos\" >Administradores</div>       \n    4        <div class=\"subtitulos\">Configuracion de administradores.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\campeonatos.php:\n    2    require_once('confi.php');\n    3  ?>\n    4:  <div class=\"ventana\">\n    5        <div class=\"titulos\" >Campeonatos</div>            \n    6        <div class=\"subtitulos\">Lista de campeonatos ingresados.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\cclave.php:\n    7  ?>\n    8  \n    9:       <div class=\"ventana\">\n   10                 <form action=\"\" id=\"contraseña\" method=\"post\"> \n   11                 <div class=\"titulos\" >Cambiar contraseña.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\cclave2.php:\n    3  ?>\n    4  \n    5:       <div class=\"ventana\">\n    6                 <form action=\"\" id=\"contraseña\"> \n    7                 <div class=\"titulos\" >Cambiar contraseña.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\eadmin.php:\n    7  <a style=\"width:100%;color:#fff;text-aling:right;background:#999;padding:0.3em;\" href=\"javascript:cerrar()\" ><b>x</b></a>\n    8  \n    9:       <div class=\"ventana\">\n   10                 <form action=\"\" id=\"mi_cuenta\"> \n   11                 <div class=\"titulos\" >Mi Cuenta</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\ecampeonato.php:\n    4  $row_ecampeonato=mysql_fetch_assoc($ecampeonato);\n    5  ?>\n    6: <div class=\"ventana\">               \n    7    <form id=\"ecampeonato\" action=\"?mm1=campeonatos\" method=\"POST\" >\n    8    <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"campeonato\">                      \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\eequipo.php:\n    5  $row_eequipo=mysql_fetch_assoc($eequipo);\n    6  ?>\n    7: <div class=\"ventana\">               \n    8    <form id=\"eequipo\" action=\"?mm1=equipos\" method=\"POST\" >\n    9    <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"equipo\">                      \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\eetapa.php:\n    5  $row_eetapas=mysql_fetch_assoc($eetapas);\n    6  ?>\n    7: <div class=\"ventana\">               \n    8    <form id=\"ecampeonato\" action=\"?mm1=etapas\" method=\"POST\" >\n    9    <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"etapa\">                      \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\efecha.php:\n    5  $row_efechas=mysql_fetch_assoc($efechas);\n    6  ?>\n    7: <div class=\"ventana\">               \n    8    <form id=\"efecha\" action=\"?mm1=fechas\" method=\"POST\" >\n    9    <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"fecha\">                      \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\efecha1.php:\n    6  ?>\n    7  <a style=\"width:100%;color:#fff;text-aling:right;background:#999;padding:0.3em;\" href=\"javascript:agestor2()\" id=\"x\" ><b>x</b></a>\n    8: <div class=\"ventana\">               \n    9   <form id=\"efecha\" action=\"javascript:agestor()\" method=\"POST\" >\n   10    <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"fecha\">                      \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\equipos.php:\n    2    require_once('confi.php');\n    3  ?>\n    4:  <div class=\"ventana\">\n    5        <div class=\"titulos\" >Equipos</div>            \n    6        <div class=\"subtitulos\">Detalle de Equipos.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\estilointerno.css:\n  229  \n  230  }\n  231: .ventana{\n  232    display:block;\n  233    width: 100%;\n  ...\n  278   \n  279  }\n  280: .ventana form {\n  281  margin:0;\n  282  padding:0;\n  283  }\n  284: .ventana .boton {\n  285  margin:1em;\n  286  padding:0.2em;\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\etapas.php:\n    2    require_once('confi.php');\n    3  ?>\n    4:  <div class=\"ventana\">\n    5        <div class=\"titulos\" >Temporadas</div>            \n    6        <div class=\"subtitulos\">Lista de temporadas por campeonato.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\fechas.php:\n    2    require_once('confi.php');\n    3  ?>\n    4:  <div class=\"ventana\">\n    5        <div class=\"titulos\" >Fechas</div>            \n    6        <div class=\"subtitulos\">Detalle de los días y horas a jugarse partidos.</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\gestor.php:\n    5    \n    6   ?>\n    7: <div class=\"ventana\">               \n    8                  \n    9      <div class=\"titulos\" >Gestro Campeonato.     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\gestro.php:\n    1: <div class=\"ventana\">               \n    2                  \n    3      <div class=\"titulos\" >Gestro Campeonato.     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\marcador.php:\n   10  ?>\n   11  <a style=\"width:100%;color:#fff;text-aling:right;background:#999;padding:0.3em;\" href=\"javascript:agestor2()\" ><b>x</b></a>\n   12: <div class=\"ventana\">               \n   13      <div class=\"titulos\"  >Marcador</div>                                            \n   14      <div class=\"subtitulos\"><?php echo $row_xfechas['nombre_fecha'];?></div>                        \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\micuenta.php:\n    3  ?>\n    4  \n    5:       <div class=\"ventana\">\n    6                 <form action=\"\" id=\"mi_cuenta\"> \n    7                 <div class=\"titulos\" >Mi Cuenta</div>\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\nadmin.php:\n    1  <a style=\"width:100%;color:#fff;text-aling:right;background:#999;padding:0.3em;\" href=\"javascript:cerrar()\" ><b>x</b></a>\n    2  \n    3:       <div class=\"ventana\">\n    4                 <form action=\"\" id=\"mi_cuenta\"> \n    5                 <input type=\"hidden\" name=\"formulario\" id=\"formulario\" value=\"admin\" >\n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\ncampeonato.php:\n    1: <div class=\"ventana\">            \n    2    <form id=\"ncampeonato\" action=\"?mm1=campeonatos\" method=\"POST\" > \n    3     <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"campeonato\">                     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\nequipo.php:\n    1: <div class=\"ventana\">            \n    2    <form id=\"nequipo\" action=\"?mm1=equipos\" method=\"POST\" > \n    3     <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"equipo\">                     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\netapa.php:\n    2    require_once('confi.php');\n    3  ?>\n    4: <div class=\"ventana\">            \n    5    <form id=\"ncampeonato\" action=\"?mm1=etapas\" method=\"POST\" > \n    6     <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"etapa\">                     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\nfecha.php:\n    2    require_once('confi.php');\n    3  ?>\n    4: <div class=\"ventana\">            \n    5    <form id=\"nfecha\" action=\"?mm1=fechas\" method=\"POST\" > \n    6     <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"fecha\">                     \n\nC:\\xampplite\\htdocs\\campeonato\\administrador\\pfechas.php:\n    2    require_once('confi.php');\n    3  ?>\n    4: <div class=\"ventana\">            \n    5    <form id=\"nfecha\" action=\"?mm1=fechas\" method=\"POST\" > \n    6     <input type=\"hidden\" id=\"formulario\" name=\"formulario\" value=\"fecha\">                     \n\n26 matches across 24 files\n",
+			"settings":
+			{
+				"buffer_size": 7449,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "administradores.php",
+			"settings":
+			{
+				"buffer_size": 1748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inicio.php",
+			"settings":
+			{
+				"buffer_size": 4985,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "terminos.php",
+			"settings":
+			{
+				"buffer_size": 3041,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"Open files",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ventana",
+			"ventanas",
+			"ventana",
+			"tr",
+			"ffff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "editar.php",
+					"settings":
+					{
+						"buffer_size": 1801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 7449,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										312,
+										319
+									],
+									[
+										616,
+										623
+									],
+									[
+										868,
+										875
+									],
+									[
+										1120,
+										1127
+									],
+									[
+										1476,
+										1483
+									],
+									[
+										1750,
+										1757
+									],
+									[
+										2092,
+										2099
+									],
+									[
+										2421,
+										2428
+									],
+									[
+										2752,
+										2759
+									],
+									[
+										3168,
+										3175
+									],
+									[
+										3491,
+										3498
+									],
+									[
+										3715,
+										3722
+									],
+									[
+										3802,
+										3809
+									],
+									[
+										3869,
+										3876
+									],
+									[
+										4051,
+										4058
+									],
+									[
+										4328,
+										4335
+									],
+									[
+										4587,
+										4594
+									],
+									[
+										4770,
+										4777
+									],
+									[
+										5096,
+										5103
+									],
+									[
+										5425,
+										5432
+									],
+									[
+										5770,
+										5777
+									],
+									[
+										6010,
+										6017
+									],
+									[
+										6291,
+										6298
+									],
+									[
+										6605,
+										6612
+									],
+									[
+										6921,
+										6928
+									],
+									[
+										7233,
+										7240
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "administradores.php",
+					"settings":
+					{
+						"buffer_size": 1748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inicio.php",
+					"settings":
+					{
+						"buffer_size": 4985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4985,
+								4985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2970.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "terminos.php",
+					"settings":
+					{
+						"buffer_size": 3041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1331,
+								1331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}

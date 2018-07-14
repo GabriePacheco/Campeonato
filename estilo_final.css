@@ -1,0 +1,52 @@
+/* CSS Document */
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+
+body{
+
+  background:url("fondo.jpg") repeat fixed center ;
+  background-size: 100%;
+  
+
+
+  
+}
+header{
+  display: block;
+  position: fidex;
+  background: #333;
+  color: #fff;
+  /*height:  3em;
+  min-height: 2.5em;*/
+  padding: 0.2em;
+  padding-top: 0.6em;
+
+}
+
+hgroup, nav{
+   display: inline-table;  
+}
+#loginer{
+    float: right;        
+}
+#loginer li{
+    display: inline-table;        
+}
+
+#loginer a{
+    display: block;
+    
+}   
+#cuerpo{
+    width:80%;
+    margin: auto;
+
+}   
+#cuerpo nav{
+   width:49%;
+}
+       
